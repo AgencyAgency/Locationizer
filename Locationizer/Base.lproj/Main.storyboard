@@ -51,12 +51,28 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="lat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wh0-yi-F0F">
+                                <rect key="frame" x="20" y="385" width="139" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="long" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JLN-if-9Cy">
+                                <rect key="frame" x="161" y="385" width="139" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="cityLabel" destination="IEE-0K-h2y" id="jKn-3V-ZNx"/>
                         <outlet property="countryLabel" destination="fW3-pR-nPK" id="Hhj-2L-ss2"/>
+                        <outlet property="latLabel" destination="wh0-yi-F0F" id="yhp-5D-kla"/>
+                        <outlet property="longLabel" destination="JLN-if-9Cy" id="sXH-Bg-tiv"/>
                         <outlet property="nameLabel" destination="uUW-2E-mTO" id="r9c-9A-ia4"/>
                         <outlet property="stateLabel" destination="lKr-yJ-fFo" id="OAF-GX-XzA"/>
                         <outlet property="subLocalityLabel" destination="6uS-Q5-jpx" id="fbA-KD-Vc9"/>

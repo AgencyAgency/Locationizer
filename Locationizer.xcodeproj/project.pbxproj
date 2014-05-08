@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF5A321D191B08570078AD31 /* NSArray+PDCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5A321C191B08570078AD31 /* NSArray+PDCUtils.m */; };
 		CFF3B0A7191999A100F9598B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF3B0A6191999A100F9598B /* Foundation.framework */; };
 		CFF3B0A9191999A100F9598B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF3B0A8191999A100F9598B /* CoreGraphics.framework */; };
 		CFF3B0AB191999A100F9598B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF3B0AA191999A100F9598B /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF5A321B191B08570078AD31 /* NSArray+PDCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PDCUtils.h"; sourceTree = "<group>"; };
+		CF5A321C191B08570078AD31 /* NSArray+PDCUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PDCUtils.m"; sourceTree = "<group>"; };
 		CFF3B0A3191999A100F9598B /* Locationizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locationizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF3B0A6191999A100F9598B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CFF3B0A8191999A100F9598B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF5A321A191B08460078AD31 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CF5A321B191B08570078AD31 /* NSArray+PDCUtils.h */,
+				CF5A321C191B08570078AD31 /* NSArray+PDCUtils.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		CFF3B09A191999A100F9598B = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +124,7 @@
 		CFF3B0AC191999A100F9598B /* Locationizer */ = {
 			isa = PBXGroup;
 			children = (
+				CF5A321A191B08460078AD31 /* Categories */,
 				CFF3B0B5191999A100F9598B /* AAIAppDelegate.h */,
 				CFF3B0B6191999A100F9598B /* AAIAppDelegate.m */,
 				CFF3B0B8191999A100F9598B /* Main.storyboard */,
@@ -250,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF5A321D191B08570078AD31 /* NSArray+PDCUtils.m in Sources */,
 				CFF3B0B7191999A100F9598B /* AAIAppDelegate.m in Sources */,
 				CFF3B0B3191999A100F9598B /* main.m in Sources */,
 				CFF3B0BD191999A100F9598B /* AAIViewController.m in Sources */,
@@ -457,6 +471,7 @@
 				CFF3B0D7191999A100F9598B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFF3B0D8191999A100F9598B /* Build configuration list for PBXNativeTarget "LocationizerTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +480,7 @@
 				CFF3B0DA191999A100F9598B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
